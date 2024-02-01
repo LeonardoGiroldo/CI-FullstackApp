@@ -35,7 +35,7 @@ jobs:
 
       # configuration file for lint
       - name: lint config file
-        run: npm init @eslint/config
+        run: cd backend && npm init @eslint/config
 
       # Run the linter.
       - name: Run linter
